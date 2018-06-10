@@ -48,7 +48,7 @@ public class Level {
 			for(int j=0;j<width;j++)
 			{
 				if(j * i % 10 < 9) {		//change the numbers of stones (<9)
-					tiles[j+i*width] = Tile.GRASS.getID();
+					tiles[j+i*width] = Tile.FLOOR.getID();
 				}
 				else {
 					tiles[j+i*width] = Tile.STONE.getID();

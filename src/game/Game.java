@@ -172,7 +172,6 @@ public class Game extends Canvas implements Runnable {
 			createBufferStrategy(3);
 			return;
 		}
-		// �����դj
 		double xOffset = player.x - (screen.width/2);
 		double yOffset = player.y - (screen.height/2);
 		level.renderTiles(screen, xOffset, yOffset);

@@ -11,6 +11,7 @@ public abstract class Tile {
 	public static final Tile VOID = new BasicSolidTile(0, 0, 0, Colours.get(000, -1, -1, -1));
 	public static final Tile STONE = new BasicSolidTile(1, 1, 0,Colours.get(-1, 333, -1, -1));
 	public static final Tile GRASS = new BasicTile(2, 2, 0, Colours.get(-1,	131, 141, -1));
+	public static final Tile FLOOR = new BasicTile(3, 3, 0, Colours.get(211,321,211,420));
 	
 	protected byte id;
 	protected boolean solid;
